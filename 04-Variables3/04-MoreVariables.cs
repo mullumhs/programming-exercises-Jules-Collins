@@ -36,7 +36,9 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-
+            int year = 2023;
+            string country = "Itrunsinthefamilyhazz";
+            int population = 420;
 
             // Do not edit below this line
             Console.WriteLine($"As of {year} the population of {country} was {population} billion.");
