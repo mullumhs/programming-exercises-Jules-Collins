@@ -39,6 +39,10 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
+            Console.WriteLine("whatsgoodblud");
+            string example = Console.ReadLine();
+            Console.WriteLine($"whatsgood{example}");
+
 
         }
     }
