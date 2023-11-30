@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web;
 
 /*
 ===============================================================================
@@ -68,8 +69,13 @@ namespace ProgrammingExercisesIST
             int y = GetNumber();
 
             // Write your code here
-
+            string name = Console.ReadLine();
+            Console.WriteLine($"hello {name} ");
+            Console.ReadLine(); 
             
+            Console.WriteLine($"{x} times {y} ");
+            Console.WriteLine($"{x} plus {y}");
+
 
             // "Exit" method is called here
             Exit();
@@ -77,7 +83,7 @@ namespace ProgrammingExercisesIST
 
         // Create your functions here
 
-
+        
 
         // This is a function I have written to get a number from the user
         private static int GetNumber()

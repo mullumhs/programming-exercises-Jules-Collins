@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Diagnostics.Eventing.Reader;
+using System.Web;
+using System.Xml.Serialization;
 
 /*
 ===============================================================================
@@ -51,7 +54,36 @@ namespace ProgrammingExercisesIST
         {
             // Your code goes below here
 
+            Console.WriteLine("Choose an Option");
+            
+           
+             Console.WriteLine("1. Area of Circle");
+            
+            Console.WriteLine("2. Area of Rectangle");
+            
+            Console.WriteLine("3. Area of Triange");
+
+            String choice = Console.ReadLine();
+
+            if (choice == "1")
+            {
+                NewMethod();
+            }
+
+
         }
+
+        private static void NewMethod()
+        {
+            Console.Write("Enter Radius: ");
+            double radius = Convert.ToDouble(Console.ReadLine());
+
+
+            double area = Math.PI * Math.Pow(radius, 2);
+            Console.WriteLine($"Circle Area = {area}");
+            Console.ReadLine();
+        }
+    }
     }
 }
 

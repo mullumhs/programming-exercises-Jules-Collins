@@ -52,7 +52,24 @@ namespace ProgrammingExercisesIST
     {
         static void Main(string[] args)
         {
+
+
             // Your code goes below here
+            string opperation = Console.ReadLine();
+            // Input X
+            Console.WriteLine("please enter a number for X");
+            double x = Convert.ToDouble(Console.ReadLine());
+
+            // Input Y 
+            Console.WriteLine("please enter a number for Y");
+            double y = Convert.ToDouble(Console.ReadLine());
+            
+
+
+
+            Console.WriteLine("What Opperation Would You Like To Do?");
+            Console.WriteLine("1. Add");
+            Console.WriteLine("2. Subtract");
 
 
             // Wait for any key before exiting

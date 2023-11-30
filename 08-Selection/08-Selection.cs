@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Eventing.Reader;
 
 /*
 ===============================================================================
@@ -49,12 +50,17 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Variables and Input
-            Console.Write("Please enter a mark out of 100: ");
+            Console.Write("Please enter a mark out of 100:");
             int mark = Convert.ToInt32(Console.ReadLine());
 
             // Your code goes below here
+            if (mark <= 50)
+            {
+                Console.WriteLine("bludclart");
+            }
 
-        }
+            Console.ReadLine(); 
+        }      
     }
 }
 

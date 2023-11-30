@@ -34,11 +34,12 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Call the methods here
-            
+            Sayhello("Jules");
+            Exit();
         }
 
         // Write your methods here
-
+      
     }
 }
 

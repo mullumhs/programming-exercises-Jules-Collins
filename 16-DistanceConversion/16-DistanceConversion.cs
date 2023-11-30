@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web;
 
 /*
 ===============================================================================
@@ -50,14 +51,27 @@ namespace ProgrammingExercisesIST
             string choice = MainMenu();
 
             // Write your code here
+            if (choice == "1")
+            {
+                kmtomile(5);
+            }
 
+               
+            
+            
+            
+            else if (choice == "2") 
 
             // Wait for key press before exiting
             WaitForKeyPress();
         }
 
+       
         // Create your functions here
-
+        private static double kmtomile(double km)
+        {
+            return km * 0.621371;
+        }
 
 
         // Asks the user to enter a distance in the unit specified

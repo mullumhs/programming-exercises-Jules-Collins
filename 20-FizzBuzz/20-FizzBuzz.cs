@@ -49,7 +49,26 @@ namespace ProgrammingExercisesIST
         static void FizzBuzz()
         {
             // Write your code here
+            for (int i = 0; i < 35; i++)
+            {
+                
+                if (i % 3 == 0 && i % 5 ==0 )
+                {
+                    Console.WriteLine("FIZZBUZZ");
+                }
+                else if (i = )              
 
+
+
+
+
+
+                else
+                {
+                    Console.WriteLine(i);
+
+                }
+            }
         }
 
         private static void WaitAtEnd()

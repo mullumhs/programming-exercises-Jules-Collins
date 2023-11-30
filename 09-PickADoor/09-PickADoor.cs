@@ -46,6 +46,21 @@ namespace ProgrammingExercisesIST
             Console.WriteLine("Pick a Door: 1, 2 or 3");
 
             // Your code goes below here
+            int door = Convert.ToInt32(Console.ReadLine());
+
+            if (door == 1) 
+            {
+                Console.WriteLine("good job blud");
+                Console.ReadLine();
+            }
+
+            else if (door == 2) { }
+
+
+
+
+
+
 
         }
     }
